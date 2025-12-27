@@ -28,10 +28,7 @@ const Login = () => {
             localStorage.setItem("token", data.token);
             localStorage.setItem("user", JSON.stringify(data.user));
 
-            // For Phase 2, we just verify login works. Redirect to a dashboard or home if we had one.
-            // But we don't have dashboard yet. Let's redirect to Onboarding or stay here with alert.
-            alert("Login Successful! Token stored.");
-            // navigate("/dashboard"); 
+            navigate("/dashboard");
         } catch (err) {
             setError(err.message);
         }
@@ -56,9 +53,6 @@ const Login = () => {
                     </div>
 
                     <button type="submit" className="btn btn-primary" style={{ width: "100%" }}>Sign In</button>
-                    <p style={{ marginTop: "1rem", textAlign: "center", color: "var(--text-muted)" }}>
-                        No account? <a href="/register" style={{ color: "var(--primary)" }}>Register</a>
-                    </p>
                 </form>
             </div>
         </div>

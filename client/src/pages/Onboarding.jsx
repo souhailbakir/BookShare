@@ -160,9 +160,6 @@ const Onboarding = () => {
                     </div>
 
                     <button type="submit" className="btn btn-primary" style={{ width: "100%" }}>Complete Profile</button>
-                    <p style={{ marginTop: "1rem", textAlign: "center", color: "var(--text-muted)" }}>
-                        Already have an account? <a href="/login" style={{ color: "var(--primary)" }}>Login</a>
-                    </p>
                 </form>
             </div>
         </div>

@@ -1,21 +1,22 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import Login from "./pages/Login";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Landing from "./pages/Landing";
 import Onboarding from "./pages/Onboarding";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
+import AddBook from "./pages/AddBook";
+import BookDetails from "./pages/BookDetails";
 
 function App() {
   return (
     <Router>
       <Routes>
-        {/* Redirect root to Login for now */}
-        <Route path="/" element={<Navigate to="/login" />} />
-
-        {/* Auth Routes */}
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Landing />} />
         <Route path="/register" element={<Onboarding />} />
-
-        {/* Fallback */}
-        <Route path="*" element={<h1 style={{ color: 'white', textAlign: 'center' }}>404 Not Found</h1>} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/add-book" element={<AddBook />} />
+        <Route path="/book/:id" element={<BookDetails />} />
       </Routes>
     </Router>
   );

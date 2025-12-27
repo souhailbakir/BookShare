@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "category": "Programming",
+    "language": "English",
+    "pages": 464,
+    "publishedYear": 2008,
+    "summary": "A handbook of agile software craftsmanship.",
+    "available": true
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt & David Thomas",
+    "category": "Programming",
+    "language": "English",
+    "pages": 352,
+    "publishedYear": 1999,
+    "summary": "Journey to mastery for modern software developers.",
+    "available": true
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "category": "Self Development",
+    "language": "English",
+    "pages": 320,
+    "publishedYear": 2018,
+    "summary": "An easy and proven way to build good habits and break bad ones.",
+    "available": true
+  },
+  {
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "category": "Productivity",
+    "language": "English",
+    "pages": 304,
+    "publishedYear": 2016,
+    "summary": "Rules for focused success in a distracted world.",
+    "available": true
+  },
+  {
+    "title": "You Don't Know JS",
+    "author": "Kyle Simpson",
+    "category": "Programming",
+    "language": "English",
+    "pages": 278,
+    "publishedYear": 2015,
+    "summary": "Deep dive into JavaScript core mechanisms.",
+    "available": true
+  },
+  {
+    "title": "Eloquent JavaScript",
+    "author": "Marijn Haverbeke",
+    "category": "Programming",
+    "language": "English",
+    "pages": 472,
+    "publishedYear": 2018,
+    "summary": "A modern introduction to JavaScript programming.",
+    "available": true
+  },
+  {
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "category": "Finance",
+    "language": "English",
+    "pages": 256,
+    "publishedYear": 2020,
+    "summary": "Timeless lessons on wealth, greed, and happiness.",
+    "available": true
+  },
+  {
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "category": "Finance",
+    "language": "English",
+    "pages": 336,
+    "publishedYear": 1997,
+    "summary": "What the rich teach their kids about money.",
+    "available": true
+  },
+  {
+    "title": "Start With Why",
+    "author": "Simon Sinek",
+    "category": "Business",
+    "language": "English",
+    "pages": 256,
+    "publishedYear": 2009,
+    "summary": "How great leaders inspire everyone to take action.",
+    "available": true
+  },
+  {
+    "title": "فن اللامبالاة",
+    "author": "مارك مانسون",
+    "category": "تطوير الذات",
+    "language": "Arabic",
+    "pages": 272,
+    "publishedYear": 2019,
+    "summary": "دليل للعيش حياة ذات معنى دون ضغوط زائدة.",
+    "available": true
+  }
+]
